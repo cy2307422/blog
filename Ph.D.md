@@ -11,10 +11,9 @@
 - 路沿提取
 - 分类（待完成）
 
-<div>
-![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH.gif)  
-</div>
 
-<div>
-  ![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH2.gif)  
-</div>
+![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH.gif)  
+
+
+
+![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH2.gif)  
