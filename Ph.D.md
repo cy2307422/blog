@@ -13,6 +13,6 @@
 - 分类（待完成）
 
 <div align="center">
-<img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH.gif" width="400" hegiht="650"/>
-<img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH3.gif" width="400" hegiht="650"/>
+<img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH-small.gif" width="400" hegiht="650"/>
+<img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH2-small.gif" width="400" hegiht="650"/>
 </div>
