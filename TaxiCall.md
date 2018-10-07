@@ -37,13 +37,15 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ### 地图界面
 乘客端和司机端进行登陆后均会进入地图界面，进行自动定位，应用会调用GPS和网络混合定位模式进行定位，并将用户（乘客或司机）当前位置进行标注显示。可点击调用菜单使用其他功能，显示周围乘客（司机端）、查看周围司机（乘客端）、显示交通状况、对乘客进行排序（司机端）、选择合适乘客（司机端），接受司机接送请求（乘客端）。如图
 
-<img src="https://github.com/cy2307422/blog/blob/master/main.png" width="300" hegiht="650" align=center />
-<img src="https://github.com/cy2307422/blog/blob/master/map.png" width="300" hegiht="650" align=center />
-<img src="https://github.com/cy2307422/blog/blob/master/confirm.png" width="300" hegiht="650" align=center />
+<img src="https://github.com/cy2307422/blog/blob/master/main.png" width="300" hegiht="400" align=center />
+<img src="https://github.com/cy2307422/blog/blob/master/map.png" width="300" hegiht="400" align=center />
+<img src="https://github.com/cy2307422/blog/blob/master/confirm.png" width="300" hegiht="400" align=center />
 
 
 ### 服务器端
 本文以当前流行智能手机平台android为基础，阐述了出租车软件的实现过程，包括登陆、注册、地图查看、交通视图、搜索乘客/司机，发送/接受接送请求等功能模块，客户端到服务器端、数据库的构建等。基本实现了乘客打的请求，司机寻求乘客等功能。但是也存在一些问题，如司机端对于乘客的质量评价模型不够精确，只考虑了距离，在后期研究中应考虑更多的因素，结果会更具参考性。对乘客的失约行为的控制，信誉度机制还未加入等问题在后期的工作中都应再详细考虑。
+
+<img src="https://github.com/cy2307422/blog/blob/master/server.png" width="300" hegiht="650" align=center />
 
 ### 总结
 本文以当前流行智能手机平台android为基础，阐述了出租车软件的实现过程，包括登陆、注册、地图查看、交通视图、搜索乘客/司机，发送/接受接送请求等功能模块，客户端到服务器端、数据库的构建等。基本实现了乘客打的请求，司机寻求乘客等功能。但是也存在一些问题，如司机端对于乘客的质量评价模型不够精确，只考虑了距离，在后期研究中应考虑更多的因素，结果会更具参考性。对乘客的失约行为的控制，信誉度机制还未加入等问题在后期的工作中都应再详细考虑。
