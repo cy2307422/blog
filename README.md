@@ -1,7 +1,10 @@
 # blog
 personal bolg
+
 <div>
+  
   [个人简历](https://github.com/cy2307422/blog/blob/master/CV/cv.pdf)
+  
 </div>
 
 <div>
