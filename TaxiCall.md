@@ -32,15 +32,15 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 当用户安装完本应用后，进入会有一个欢迎界面，2秒后自动跳转进入登陆界面。在登陆之前，用户需要先注册，按要求注册完毕会自动跳转到登陆界面进行登陆。如图。
 
 <img src="https://github.com/cy2307422/blog/blob/master/login.png" width="200" hegiht="650" align=center />
-<img src="https://github.com/cy2307422/blog/blob/master/register.png" width="300" hegiht="650" align=center />
+<img src="https://github.com/cy2307422/blog/blob/master/register.png" width="200" hegiht="650" align=center />
 
 ### 地图界面
 乘客端和司机端进行登陆后均会进入地图界面，进行自动定位，应用会调用GPS和网络混合定位模式进行定位，并将用户（乘客或司机）当前位置进行标注显示。可点击调用菜单使用其他功能，显示周围乘客（司机端）、查看周围司机（乘客端）、显示交通状况、对乘客进行排序（司机端）、选择合适乘客（司机端），接受司机接送请求（乘客端）。如图
  
 <figure class="third">
-  <img src="https://github.com/cy2307422/blog/blob/master/main.png" width="300" hegiht="400"/>
-  <img src="https://github.com/cy2307422/blog/blob/master/map.png" width="300" hegiht="400" />
-  <img src="https://github.com/cy2307422/blog/blob/master/confirm.png" width="300" hegiht="400" />
+  <img src="https://github.com/cy2307422/blog/blob/master/main.png" width="200" hegiht="400"/>
+  <img src="https://github.com/cy2307422/blog/blob/master/map.png" width="200" hegiht="400" />
+  <img src="https://github.com/cy2307422/blog/blob/master/confirm.png" width="200" hegiht="400" />
 </figure>
 
 
