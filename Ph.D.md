@@ -12,9 +12,7 @@
 - 分类（待完成）
 
 
-![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH.gif)  
-
+<img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH.gif" width="400" hegiht="650"/>
 
 <img src="https://github.com/cy2307422/blog/blob/master/demo-BKTH2.gif" width="400" hegiht="650"/>
 
-![image](https://github.com/cy2307422/blog/blob/master/demo-BKTH2.gif)  
