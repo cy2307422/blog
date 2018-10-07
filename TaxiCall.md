@@ -15,7 +15,8 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ○4可考虑融合语音输入功能，极大程度方便乘客与司机使用。
 ## 系统架构
 基于Android的P2P智能移动点召手机应用分为乘客端、机端及服务器端，如图1。
-<img src="https://github.com/cy2307422/blog/blob/master/flowchart.png" width="200" hegiht="650" align=center />
+
+<img src="https://github.com/cy2307422/blog/blob/master/flowchart.png" width="200" hegiht="650"/>
 
 
 乘客端包括：目的地选择，乘车请求发送，司机评分系统，结果反馈显示等功能。乘客在进行发送乘车请求前，可以进行目的地选择；请求发送后，可若有司机进行接送，可接收到来自服务器发送的司机理论到达时间；乘车完成后，再对司机进行司机服务态度、满意度等方面进行评分。
@@ -26,17 +27,18 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 本软件采用开发软件环境为WinXp，开发工具为Eclipse4.0+AndroidSDK+MySQL5.0+Apache HTTP Server2.2.4+PHP5.0，地图采用高德地图android SDK2.0。
 系统客户端采用MVC模式进行应用程序的开发。MVC (Model-View-Controller)是一种软件设计模式,其中M是指逻辑模型,V是指视图模型,C则是控制器,即MVC软件架构的三个基本组成部分。[7]在Android中,M指的是应用程序中的二进制的数据，V指的是用户界面,Android中通常将其直接采用XML文件保存,方便界面开发，C指Activity,一个Activity可以有多个界面,通过setContentView将视图ID传递出去,就可以指定以那个视图模型进行数据显示。釆用MVC模式,最大的好处是实现了逻辑模型开发视图模型开发的完全分离,有利于代码的重用及开发速度的提高。
 基于Android的出租车打的软件设计,遵循MVC模式进行开发,提高了代码的重复使用率。例如设计好一个Layout布局后,不同的视图都可以调用这个布局,使得不同的视图得到相同的布局显示。Eclipse开发环境下Android应用程序的整个软件项目的结构见图3。
-<img src="https://github.com/cy2307422/blog/blob/master/softwareStruct.png" width="300" hegiht="650" align=center />
+
+<img src="https://github.com/cy2307422/blog/blob/master/softwareStruct.png" width="300" hegiht="650" />
 
 ### 登陆注册
 当用户安装完本应用后，进入会有一个欢迎界面，2秒后自动跳转进入登陆界面。在登陆之前，用户需要先注册，按要求注册完毕会自动跳转到登陆界面进行登陆。如图。
-<div align="center">
-<img src="https://github.com/cy2307422/blog/blob/master/login.png" width="200" hegiht="650" align=center />
-<img src="https://github.com/cy2307422/blog/blob/master/register.png" width="200" hegiht="650" align=center />
+<div align="left">
+<img src="https://github.com/cy2307422/blog/blob/master/login.png" width="200" hegiht="650" />
+<img src="https://github.com/cy2307422/blog/blob/master/register.png" width="200" hegiht="650" />
 </div>
 ### 地图界面
 乘客端和司机端进行登陆后均会进入地图界面，进行自动定位，应用会调用GPS和网络混合定位模式进行定位，并将用户（乘客或司机）当前位置进行标注显示。可点击调用菜单使用其他功能，显示周围乘客（司机端）、查看周围司机（乘客端）、显示交通状况、对乘客进行排序（司机端）、选择合适乘客（司机端），接受司机接送请求（乘客端）。如图
- <div align="center">
+ <div align="left">
   <img src="https://github.com/cy2307422/blog/blob/master/main.png" width="200" hegiht="400">
   <img src="https://github.com/cy2307422/blog/blob/master/map.png" width="200" hegiht="400">
   <img src="https://github.com/cy2307422/blog/blob/master/confirm.png" width="200" hegiht="400">
@@ -46,7 +48,7 @@ Android是一种基于Linux的自由及开放源代码的操作系统，主要�
 ### 服务器端
 本文以当前流行智能手机平台android为基础，阐述了出租车软件的实现过程，包括登陆、注册、地图查看、交通视图、搜索乘客/司机，发送/接受接送请求等功能模块，客户端到服务器端、数据库的构建等。基本实现了乘客打的请求，司机寻求乘客等功能。但是也存在一些问题，如司机端对于乘客的质量评价模型不够精确，只考虑了距离，在后期研究中应考虑更多的因素，结果会更具参考性。对乘客的失约行为的控制，信誉度机制还未加入等问题在后期的工作中都应再详细考虑。
 
-<img src="https://github.com/cy2307422/blog/blob/master/server.png" width="300" hegiht="650" align=center />
+<img src="https://github.com/cy2307422/blog/blob/master/server.png" width="300" hegiht="650"/>
 
 ### 总结
 本文以当前流行智能手机平台android为基础，阐述了出租车软件的实现过程，包括登陆、注册、地图查看、交通视图、搜索乘客/司机，发送/接受接送请求等功能模块，客户端到服务器端、数据库的构建等。基本实现了乘客打的请求，司机寻求乘客等功能。但是也存在一些问题，如司机端对于乘客的质量评价模型不够精确，只考虑了距离，在后期研究中应考虑更多的因素，结果会更具参考性。对乘客的失约行为的控制，信誉度机制还未加入等问题在后期的工作中都应再详细考虑。
